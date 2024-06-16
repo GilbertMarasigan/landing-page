@@ -9,15 +9,46 @@ body {
 
 .header {
     background-color: #1F2937;
+    color: #F9FAf8;
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAf8;
+}
+
+.header-top {
+    display: flex;
 }
 
 .header-logo{
     font-size: 24px;
-    color: #F9FAf8;
 }
 
 .main-text{
     font-size: 48px;
     color: #F9FAf8;
     font-weight: bolder;
+}
+
+.secondary-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-content-left .signup-button{
+    background-color: #3882F6; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
 }
